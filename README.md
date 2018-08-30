@@ -13,7 +13,7 @@ To build vagrant box:
 1.  Install [Packer](http://www.packer.io)
 2.  Use below command:
 
-packer build <path to xenial64.json file>
+packer build "path to xenial64.json file"
 
 To test you will need Kitchen:
 
