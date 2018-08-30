@@ -1,20 +1,26 @@
 # Vagrant box with preinstalled redis64
 
-Prerequisite:
+## Prerequisites:
 
-1.  Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-2.  Install [Vagrant](https://www.vagrantup.com)
-3.  Boot vagrant environment : vagrant init && vagrant up
+1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+2. Install [Vagrant](https://www.vagrantup.com)
+3. Install [Packer](https://www.packer.io)
 
-For more information, visit [Vagrant Documentation](https://docs.vagrantup.com/v2/)
+## To build vagrant box:
 
-To build vagrant box:
+```
+packer build xenial64.json
+```
 
-1.  Install [Packer](http://www.packer.io)
-2.  Use below command:
+## To test with Kitchen:
 
-packer build "path to xenial64.json file"
+```
+instructions here
+```
 
-To test you will need Kitchen:
+### Sample kitchen output
 
-For the test you will need Kitchen it is a RubyGem so please find how to install and setup Test Kitchen for developing infrastructure code, check out the [Getting Started Guide](http://kitchen.ci/docs/getting-started/).
+
+```
+output here
+```
